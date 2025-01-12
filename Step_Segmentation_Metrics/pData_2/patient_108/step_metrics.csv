@@ -1,0 +1,2 @@
+step_number,peak_pressure,auc,rise_gradient,descent_gradient,variance,skewness,kurtosis
+1,22,5733,0.14285714285714285,0.0,0.17955390334572494,1.2680321727657424,-0.3950760538850986

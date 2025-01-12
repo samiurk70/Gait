@@ -1,0 +1,2 @@
+step_number,peak_pressure,auc,rise_gradient,descent_gradient,variance,skewness,kurtosis,mean_temperature,max_temperature,temperature_variance
+1,50,3408,1.6666666666666667,-0.22826086956521738,24.64525765496639,1.8535139592784313,2.252931568964387,24.0,24,0.0
