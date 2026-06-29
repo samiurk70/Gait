@@ -1,0 +1,594 @@
+{
+  "dataset": {
+    "total_patients": 312,
+    "total_observations": 93790,
+    "columns": [
+      "id",
+      "cid",
+      "counter",
+      "tData",
+      "tData_2",
+      "tData_3",
+      "tData_4",
+      "pData",
+      "pData_2",
+      "pData_3",
+      "pData_4",
+      "created_at",
+      "updated_at"
+    ],
+    "pressure_regions": [
+      "pData",
+      "pData_2",
+      "pData_3",
+      "pData_4"
+    ],
+    "temperature_regions": [
+      "tData",
+      "tData_2",
+      "tData_3",
+      "tData_4"
+    ],
+    "after_variability_filter": 92,
+    "after_25_step_filter": 67,
+    "total_filtered_observations": 58807,
+    "patient_ids_25_steps": [
+      38,
+      40,
+      41,
+      43,
+      47,
+      48,
+      49,
+      60,
+      62,
+      64,
+      65,
+      67,
+      68,
+      69,
+      75,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      96,
+      98,
+      99,
+      100,
+      101,
+      104,
+      105,
+      106,
+      107,
+      108,
+      110,
+      113,
+      114,
+      116,
+      125,
+      126,
+      131,
+      133,
+      152,
+      155,
+      165,
+      170,
+      176,
+      179,
+      180,
+      187,
+      191,
+      192,
+      196,
+      198,
+      200,
+      204,
+      209,
+      219,
+      227,
+      234,
+      240,
+      241,
+      246,
+      256,
+      295,
+      296,
+      325,
+      350,
+      352,
+      381
+    ]
+  },
+  "pressure_descriptive": {
+    "pData": {
+      "mean": 41.49682860883908,
+      "std": 200.4182315135451,
+      "median": 38.0,
+      "min": 0.0,
+      "max": 9893.0,
+      "skewness": 48.51854788993837,
+      "kurtosis": 2380.283940239339
+    },
+    "pData_2": {
+      "mean": 28.348427908242215,
+      "std": 194.32214557479656,
+      "median": 22.0,
+      "min": 0.0,
+      "max": 9893.0,
+      "skewness": 49.46811545098904,
+      "kurtosis": 2493.5196601378416
+    },
+    "pData_3": {
+      "mean": 10.964272960701956,
+      "std": 125.94407465259921,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 9893.0,
+      "skewness": 74.84561475944307,
+      "kurtosis": 5830.373174378534
+    },
+    "pData_4": {
+      "mean": 19.638189331202067,
+      "std": 359.81197014228746,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 9893.0,
+      "skewness": 27.078885223028813,
+      "kurtosis": 736.25216696109
+    }
+  },
+  "temperature_descriptive": {
+    "tData": {
+      "mean": -319.40231605081027,
+      "std": 6936.3311570397545,
+      "median": 23.0,
+      "min": -141804.0,
+      "max": 39.0,
+      "skewness": -20.34921969965381,
+      "kurtosis": 412.1059994582369
+    },
+    "tData_2": {
+      "mean": -320.8148179638478,
+      "std": 6936.264844755298,
+      "median": 23.0,
+      "min": -141804.0,
+      "max": 77.0,
+      "skewness": -20.349193736175085,
+      "kurtosis": 412.10529661565323
+    },
+    "tData_3": {
+      "mean": -319.79623174111924,
+      "std": 6936.311857713075,
+      "median": 23.0,
+      "min": -141804.0,
+      "max": 59.0,
+      "skewness": -20.34921958850581,
+      "kurtosis": 412.1059964599202
+    },
+    "tData_4": {
+      "mean": -328.6283265597633,
+      "std": 6935.892054942812,
+      "median": 20.0,
+      "min": -141804.0,
+      "max": 59.0,
+      "skewness": -20.34910290495731,
+      "kurtosis": 412.1028379992474
+    }
+  },
+  "baseline_metrics": {
+    "pData": {
+      "n_steps": 7,
+      "features": {
+        "peak_pressure": {
+          "mean": 75.71428571428571,
+          "std": 16.194410411355783,
+          "median": 72.75,
+          "min": 61.0,
+          "max": 108.0
+        },
+        "auc": {
+          "mean": 297.42857142857144,
+          "std": 85.72518035920979,
+          "median": 265.0,
+          "min": 176.25,
+          "max": 412.0
+        },
+        "rise_gradient": {
+          "mean": 2.2394557823129246,
+          "std": 2.1358850894976253,
+          "median": 1.4166666666666667,
+          "min": 0.1666666666666666,
+          "max": 6.175
+        },
+        "descent_gradient": {
+          "mean": -5.692788461538461,
+          "std": 7.416387256706919,
+          "median": -3.625,
+          "min": -21.73076923076923,
+          "max": -0.21875
+        },
+        "variance": {
+          "mean": 390.20656694495983,
+          "std": 678.3454400085911,
+          "median": 89.33333333333333,
+          "min": 1.6428571428571428,
+          "max": 1876.5145833333331
+        },
+        "skewness": {
+          "mean": 0.11879293763371959,
+          "std": 0.6060093486149887,
+          "median": 0.1486521462903184,
+          "min": -0.7110323117896459,
+          "max": 1.0082525569352712
+        },
+        "kurtosis": {
+          "mean": -1.2571806323246204,
+          "std": 2.1432493049534624,
+          "median": -1.0619358309151896,
+          "min": -4.940547642509481,
+          "max": 1.8176352884149505
+        }
+      }
+    },
+    "pData_2": {
+      "n_steps": 89,
+      "features": {
+        "peak_pressure": {
+          "mean": 65.30823970037453,
+          "std": 27.182331317995608,
+          "median": 64.5,
+          "min": 21.0,
+          "max": 137.5
+        },
+        "auc": {
+          "mean": 389.0292134831461,
+          "std": 1105.2067630162805,
+          "median": 192.0,
+          "min": 83.0,
+          "max": 10264.2
+        },
+        "rise_gradient": {
+          "mean": 5.948858698399346,
+          "std": 7.032446595006036,
+          "median": 3.5333333333333337,
+          "min": 0.0,
+          "max": 30.96666666666667
+        },
+        "descent_gradient": {
+          "mean": -8.440280905175998,
+          "std": 12.8550233754702,
+          "median": -2.416666666666667,
+          "min": -58.333333333333336,
+          "max": 0.0
+        },
+        "variance": {
+          "mean": 1025.7449203998874,
+          "std": 1485.1641465957816,
+          "median": 192.66666666666663,
+          "min": 0.0,
+          "max": 6817.223109243698
+        },
+        "skewness": {
+          "mean": 0.3731784767784559,
+          "std": 0.8717413742330293,
+          "median": 0.0,
+          "min": -0.9682458365518648,
+          "max": 3.551437484917643
+        },
+        "kurtosis": {
+          "mean": 0.9555025322014322,
+          "std": 6.4534851174131695,
+          "median": 0.0,
+          "min": -5.027192089573942,
+          "max": 55.57474663546313
+        }
+      }
+    },
+    "pData_3": {
+      "n_steps": 74,
+      "features": {
+        "peak_pressure": {
+          "mean": 60.45518018018018,
+          "std": 28.458563822472037,
+          "median": 64.8,
+          "min": 6.0,
+          "max": 132.8
+        },
+        "auc": {
+          "mean": 396.9112612612613,
+          "std": 573.6660864387003,
+          "median": 167.6,
+          "min": 24.0,
+          "max": 3228.0
+        },
+        "rise_gradient": {
+          "mean": 6.3212115644942966,
+          "std": 6.691685478338404,
+          "median": 4.3125,
+          "min": 0.0,
+          "max": 31.05
+        },
+        "descent_gradient": {
+          "mean": -9.402888891175719,
+          "std": 10.830623488076096,
+          "median": -5.926543209876543,
+          "min": -47.66666666666666,
+          "max": 0.0
+        },
+        "variance": {
+          "mean": 698.4665467428833,
+          "std": 979.1368769786909,
+          "median": 368.9817307692308,
+          "min": 0.0,
+          "max": 5112.25
+        },
+        "skewness": {
+          "mean": 0.03768398763409506,
+          "std": 0.6454692994815274,
+          "median": 0.0,
+          "min": -1.7531489620855438,
+          "max": 1.8512011263466812
+        },
+        "kurtosis": {
+          "mean": 0.12275725918738786,
+          "std": 1.66105895977893,
+          "median": 0.0,
+          "min": -3.726095135716205,
+          "max": 9.2906187453224
+        }
+      }
+    },
+    "pData_4": {
+      "n_steps": 43,
+      "features": {
+        "peak_pressure": {
+          "mean": 78.57131782945736,
+          "std": 27.85042943386237,
+          "median": 72.4,
+          "min": 39.6,
+          "max": 163.0
+        },
+        "auc": {
+          "mean": 442.6003875968992,
+          "std": 481.1225814482997,
+          "median": 237.2,
+          "min": 91.4,
+          "max": 1854.6
+        },
+        "rise_gradient": {
+          "mean": 5.518419729392082,
+          "std": 6.52511920746676,
+          "median": 3.06,
+          "min": 0.0,
+          "max": 26.83333333333333
+        },
+        "descent_gradient": {
+          "mean": -9.686831369996618,
+          "std": 12.791351510469033,
+          "median": -4.4,
+          "min": -64.0,
+          "max": 0.0
+        },
+        "variance": {
+          "mean": 837.663513580411,
+          "std": 1177.2357120409688,
+          "median": 396.7,
+          "min": 0.0,
+          "max": 5329.083333333333
+        },
+        "skewness": {
+          "mean": 0.6473633084652485,
+          "std": 1.7228838550551844,
+          "median": 0.0,
+          "min": -1.9750530956362944,
+          "max": 7.682711158969578
+        },
+        "kurtosis": {
+          "mean": 3.8669607945930107,
+          "std": 10.641546462573203,
+          "median": 0.0,
+          "min": -2.565176612918954,
+          "max": 61.631592093367416
+        }
+      }
+    }
+  },
+  "key_findings": {
+    "peak_pressure_by_region": {
+      "pData": 75.71428571428571,
+      "pData_2": 65.30823970037453,
+      "pData_3": 60.45518018018018,
+      "pData_4": 78.57131782945736
+    },
+    "heel_vs_metatarsal_ratio": 1.1699257383959825,
+    "inter_region_correlations": {
+      "pData": {
+        "pData": 1.0,
+        "pData_2": 0.03500629506732701,
+        "pData_3": 0.02784143187821782,
+        "pData_4": 0.006512908188765245
+      },
+      "pData_2": {
+        "pData": 0.03500629506732701,
+        "pData_2": 1.0,
+        "pData_3": 0.03451897780929707,
+        "pData_4": 0.0064077029726489635
+      },
+      "pData_3": {
+        "pData": 0.02784143187821782,
+        "pData_2": 0.03451897780929707,
+        "pData_3": 1.0,
+        "pData_4": 0.024002652348166946
+      },
+      "pData_4": {
+        "pData": 0.006512908188765245,
+        "pData_2": 0.0064077029726489635,
+        "pData_3": 0.024002652348166946,
+        "pData_4": 1.0
+      }
+    },
+    "region1_region4_correlation": 0.006512908188765245,
+    "temperature_stds": {
+      "tData": 6936.3311570397545,
+      "tData_2": 6936.264844755298,
+      "tData_3": 6936.311857713075,
+      "tData_4": 6935.892054942812
+    },
+    "pressure_stds": {
+      "pData": 200.4182315135451,
+      "pData_2": 194.32214557479656,
+      "pData_3": 125.94407465259921,
+      "pData_4": 359.81197014228746
+    },
+    "temp_vs_pressure_std_ratio": 31.510406203706825,
+    "temperature_dispersion": {
+      "tData": 6936.3311570397545,
+      "tData_2": 6936.264844755298,
+      "tData_3": 6936.311857713075,
+      "tData_4": 6935.892054942812
+    },
+    "patients_per_region": {
+      "pData": 8,
+      "pData_2": 28,
+      "pData_3": 35,
+      "pData_4": 41
+    }
+  },
+  "anomaly_detection": {
+    "pData": {
+      "total_steps": 7,
+      "n_anomalous": 1,
+      "n_normal": 6,
+      "anomaly_rate": 0.14285714285714285
+    },
+    "pData_2": {
+      "total_steps": 89,
+      "n_anomalous": 18,
+      "n_normal": 71,
+      "anomaly_rate": 0.20224719101123595
+    },
+    "pData_3": {
+      "total_steps": 74,
+      "n_anomalous": 18,
+      "n_normal": 56,
+      "anomaly_rate": 0.24324324324324326
+    },
+    "pData_4": {
+      "total_steps": 43,
+      "n_anomalous": 10,
+      "n_normal": 33,
+      "anomaly_rate": 0.23255813953488372
+    }
+  },
+  "classification_results": {
+    "pdata": {
+      "total_steps": 7,
+      "n_normal": 6,
+      "n_anomaly": 1,
+      "label_method": "z-score > 2",
+      "rf_accuracy": 1.0,
+      "rf_f1_normal": 1.0,
+      "rf_f1_anomaly": 0.0,
+      "rf_weighted_f1": 1.0,
+      "xgb_accuracy": 1.0,
+      "xgb_f1_normal": 1.0,
+      "xgb_f1_anomaly": 0.0,
+      "xgb_weighted_f1": 1.0,
+      "rf_cv_f1_mean": 0.8666666666666666,
+      "rf_cv_f1_std": 0.26666666666666666,
+      "xgb_cv_f1_mean": 0.8666666666666666,
+      "xgb_cv_f1_std": 0.26666666666666666
+    },
+    "pdata_2": {
+      "total_steps": 89,
+      "n_normal": 71,
+      "n_anomaly": 18,
+      "label_method": "z-score > 2",
+      "rf_accuracy": 0.8888888888888888,
+      "rf_f1_normal": 0.9333333333333333,
+      "rf_f1_anomaly": 0.6666666666666666,
+      "rf_weighted_f1": 0.874074074074074,
+      "xgb_accuracy": 0.8888888888888888,
+      "xgb_f1_normal": 0.9333333333333333,
+      "xgb_f1_anomaly": 0.6666666666666666,
+      "xgb_weighted_f1": 0.874074074074074,
+      "rf_cv_f1_mean": 0.953326250040246,
+      "rf_cv_f1_std": 0.04228495238413292,
+      "xgb_cv_f1_mean": 0.8485367819727075,
+      "xgb_cv_f1_std": 0.04086081686070034
+    },
+    "pdata_3": {
+      "total_steps": 74,
+      "n_normal": 56,
+      "n_anomaly": 18,
+      "label_method": "z-score > 2",
+      "rf_accuracy": 0.8666666666666667,
+      "rf_f1_normal": 0.9090909090909091,
+      "rf_f1_anomaly": 0.75,
+      "rf_weighted_f1": 0.8666666666666667,
+      "xgb_accuracy": 0.8666666666666667,
+      "xgb_f1_normal": 0.9090909090909091,
+      "xgb_f1_anomaly": 0.75,
+      "xgb_weighted_f1": 0.8666666666666667,
+      "rf_cv_f1_mean": 0.8996165631469978,
+      "rf_cv_f1_std": 0.07248564934823873,
+      "xgb_cv_f1_mean": 0.834891189325972,
+      "xgb_cv_f1_std": 0.08001360628760462
+    },
+    "pdata_4": {
+      "total_steps": 43,
+      "n_normal": 33,
+      "n_anomaly": 10,
+      "label_method": "z-score > 2",
+      "rf_accuracy": 1.0,
+      "rf_f1_normal": 1.0,
+      "rf_f1_anomaly": 1.0,
+      "rf_weighted_f1": 1.0,
+      "xgb_accuracy": 0.6666666666666666,
+      "xgb_f1_normal": 0.7272727272727273,
+      "xgb_f1_anomaly": 0.5714285714285714,
+      "xgb_weighted_f1": 0.6926406926406927,
+      "rf_cv_f1_mean": 0.8827207977207976,
+      "rf_cv_f1_std": 0.11748895003121294,
+      "xgb_cv_f1_mean": 0.7990844340844341,
+      "xgb_cv_f1_std": 0.07062934018947295
+    }
+  },
+  "step_segmentation": {
+    "pData": {
+      "n_patients": 8,
+      "total_steps": 207,
+      "mean_steps_per_patient": 25.875,
+      "std_steps_per_patient": 32.50937364822644,
+      "min_steps": 1,
+      "max_steps": 92
+    },
+    "pData_2": {
+      "n_patients": 28,
+      "total_steps": 871,
+      "mean_steps_per_patient": 31.107142857142858,
+      "std_steps_per_patient": 34.81926733219727,
+      "min_steps": 1,
+      "max_steps": 149
+    },
+    "pData_3": {
+      "n_patients": 35,
+      "total_steps": 878,
+      "mean_steps_per_patient": 25.085714285714285,
+      "std_steps_per_patient": 39.87363714003916,
+      "min_steps": 1,
+      "max_steps": 185
+    },
+    "pData_4": {
+      "n_patients": 41,
+      "total_steps": 714,
+      "mean_steps_per_patient": 17.414634146341463,
+      "std_steps_per_patient": 24.537652112775877,
+      "min_steps": 1,
+      "max_steps": 134
+    }
+  }
+}

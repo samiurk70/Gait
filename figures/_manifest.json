@@ -1,0 +1,1428 @@
+[
+  {
+    "cell_index": 10,
+    "exec_count": 10,
+    "files": [
+      "cell_010_example_visualize_data_for_a_specific_patient.png"
+    ],
+    "source_preview": "# Example: Visualize data for a specific patient sample_cid = 49  # Replace with specific CID if nee"
+  },
+  {
+    "cell_index": 11,
+    "exec_count": 11,
+    "files": [
+      "cell_011_visualize_rate_of_changesample_patient_data_sample.png"
+    ],
+    "source_preview": "visualize_rate_of_change(sample_patient_data, sample_cid) "
+  },
+  {
+    "cell_index": 12,
+    "exec_count": 12,
+    "files": [
+      "cell_012_example_visualize_data_for_a_specific_patient.png"
+    ],
+    "source_preview": "# Example: Visualize data for a specific patient sample_cid = 296  # Replace with specific CID if ne"
+  },
+  {
+    "cell_index": 13,
+    "exec_count": 13,
+    "files": [
+      "cell_013_visualize_rate_of_changesample_patient_data_sample.png"
+    ],
+    "source_preview": "visualize_rate_of_change(sample_patient_data, sample_cid)"
+  },
+  {
+    "cell_index": 14,
+    "exec_count": 14,
+    "files": [
+      "cell_014_example_visualize_data_for_a_specific_patient.png"
+    ],
+    "source_preview": "# Example: Visualize data for a specific patient sample_cid = 350  # Replace with specific CID if ne"
+  },
+  {
+    "cell_index": 15,
+    "exec_count": 15,
+    "files": [
+      "cell_015_visualize_rate_of_changesample_patient_data_sample.png"
+    ],
+    "source_preview": "visualize_rate_of_change(sample_patient_data, sample_cid)"
+  },
+  {
+    "cell_index": 32,
+    "exec_count": 28,
+    "files": [
+      "cell_032_fig02_pressure_trends_patient47.png"
+    ],
+    "source_preview": "# Generate plots for selected patients plot_patient_data_pressue(47, data)"
+  },
+  {
+    "cell_index": 35,
+    "exec_count": 30,
+    "files": [
+      "cell_035_fig03_temperature_trends_patient47.png"
+    ],
+    "source_preview": "# Generate plots for selected patients  plot_patient_data_temperature(47, data)"
+  },
+  {
+    "cell_index": 38,
+    "exec_count": 32,
+    "files": [
+      "cell_038_fig15_comparing_both_trends.png"
+    ],
+    "source_preview": "# Generate plots for selected patients  plot_patient_data_all(47, data)"
+  },
+  {
+    "cell_index": 50,
+    "exec_count": 38,
+    "files": [
+      "cell_050_fig04_peak_analysis_2.png",
+      "cell_050_fig04_peak_analysis_4.png",
+      "cell_050_fig04_peak_analysis_6.png",
+      "cell_050_fig04_peak_analysis_8.png",
+      "cell_050_fig04_peak_analysis_10.png",
+      "cell_050_fig04_peak_analysis_12.png",
+      "cell_050_fig04_peak_analysis_14.png",
+      "cell_050_fig04_peak_analysis_16.png"
+    ],
+    "source_preview": "# Perform Peak Detection for Selected Patients peak_detection(49, data)"
+  },
+  {
+    "cell_index": 56,
+    "exec_count": 42,
+    "files": [
+      "cell_056_perform_gait_cycle_analysis_for_refined_patients.png"
+    ],
+    "source_preview": "# Perform Gait Cycle Analysis for Refined Patients gait_cycle_analysis(49, data)"
+  },
+  {
+    "cell_index": 71,
+    "exec_count": 54,
+    "files": [
+      "cell_071_fig05_step_periodicity.png"
+    ],
+    "source_preview": " for region, metrics in sample_metrics.items():     peak_pressures = [step['peak_pressure'] for step"
+  },
+  {
+    "cell_index": 78,
+    "exec_count": 60,
+    "files": [
+      "cell_078_fig_metrics_visualization_1.png"
+    ],
+    "source_preview": "# Visualize metrics for a specific patient specific_patient_id = filtered_patients[4]  # Replace wit"
+  },
+  {
+    "cell_index": 79,
+    "exec_count": 61,
+    "files": [
+      "cell_079_fig_metrics_visualization_2.png"
+    ],
+    "source_preview": "# Visualize metrics for a specific patient specific_patient_id = filtered_patients[2]  # Replace wit"
+  },
+  {
+    "cell_index": 80,
+    "exec_count": 62,
+    "files": [
+      "cell_080_fig_metrics_visualization_3.png"
+    ],
+    "source_preview": "# Visualize metrics for a specific patient specific_patient_id = filtered_patients[36]  # Replace wi"
+  },
+  {
+    "cell_index": 87,
+    "exec_count": 68,
+    "files": [
+      "cell_087_import_matplotlibpyplot_as_plt.png"
+    ],
+    "source_preview": "import matplotlib.pyplot as plt  # Load the metrics data from the CSV files metrics_pdata1 = pd.read"
+  },
+  {
+    "cell_index": 88,
+    "exec_count": 69,
+    "files": [
+      "cell_088_filter_the_data_for_the_specific_patient_cid_47.png"
+    ],
+    "source_preview": "# Filter the data for the specific patient cid 47 metrics_pdata1_47 = metrics_pdata1[metrics_pdata1["
+  },
+  {
+    "cell_index": 89,
+    "exec_count": 70,
+    "files": [
+      "cell_089_filter_the_data_for_the_specific_patient_cid_60.png"
+    ],
+    "source_preview": "# Filter the data for the specific patient cid 60 metrics_pdata1_60 = metrics_pdata1[metrics_pdata1["
+  },
+  {
+    "cell_index": 102,
+    "exec_count": 79,
+    "files": [
+      "cell_102_file_paths_for_baseline_files_1.png",
+      "cell_102_file_paths_for_baseline_files_2.png",
+      "cell_102_file_paths_for_baseline_files_3.png",
+      "cell_102_file_paths_for_baseline_files_4.png",
+      "cell_102_file_paths_for_baseline_files_5.png",
+      "cell_102_file_paths_for_baseline_files_6.png",
+      "cell_102_file_paths_for_baseline_files_7.png",
+      "cell_102_file_paths_for_baseline_files_8.png",
+      "cell_102_file_paths_for_baseline_files_9.png",
+      "cell_102_file_paths_for_baseline_files_10.png"
+    ],
+    "source_preview": "# File paths for baseline files baseline_files = {     \"pdata\": \"Metrics_Baselines/pdata1_baseline_m"
+  },
+  {
+    "cell_index": 107,
+    "exec_count": 83,
+    "files": [
+      "cell_107_fig07b_zscore_detail.png"
+    ],
+    "source_preview": "# Load baseline metrics for pdata1 baseline_pdata1 = pd.read_csv('Metrics_Baselines/pdata1_baseline_"
+  },
+  {
+    "cell_index": 127,
+    "exec_count": 99,
+    "files": [
+      "cell_127_load_data_if_necessary.png"
+    ],
+    "source_preview": "# Load data (if necessary) data = pd.read_csv(\"filtered_patients_25_steps.csv\")  # Replace with the "
+  },
+  {
+    "cell_index": 128,
+    "exec_count": 100,
+    "files": [
+      "cell_128_patient_id__350_replace_with_the_actual_patient_id.png"
+    ],
+    "source_preview": "patient_id = 350  # Replace with the actual patient ID pdata_region = \"pData\"  # Replace with \"pData"
+  },
+  {
+    "cell_index": 129,
+    "exec_count": 101,
+    "files": [
+      "cell_129_patient_id__47_replace_with_the_actual_patient_id.png"
+    ],
+    "source_preview": "patient_id = 47  # Replace with the actual patient ID pdata_region = \"pData_4\"  # Replace with \"pDat"
+  },
+  {
+    "cell_index": 130,
+    "exec_count": 102,
+    "files": [
+      "cell_130_patient_id__350_replace_with_the_actual_patient_id.png"
+    ],
+    "source_preview": "patient_id = 350  # Replace with the actual patient ID pdata_region = \"pData_4\"  # Replace with \"pDa"
+  },
+  {
+    "cell_index": 135,
+    "exec_count": 104,
+    "files": [
+      "cell_135_example_usage.png"
+    ],
+    "source_preview": " # Example usage patient_id = 350  # Change this to any patient ID you want to analyze analyze_step_"
+  },
+  {
+    "cell_index": 139,
+    "exec_count": 106,
+    "files": [
+      "cell_139_example_usage.png"
+    ],
+    "source_preview": "# Example usage patient_id = 350  # Change this to the patient ID you want to analyze compare_pressu"
+  },
+  {
+    "cell_index": 142,
+    "exec_count": 108,
+    "files": [
+      "cell_142_example_usage.png"
+    ],
+    "source_preview": "# Example usage patient_id = 350  # Replace with desired patient ID analyze_step_consistency(patient"
+  },
+  {
+    "cell_index": 146,
+    "exec_count": 110,
+    "files": [
+      "cell_146_example_usage_1.png",
+      "cell_146_example_usage_2.png",
+      "cell_146_example_usage_3.png",
+      "cell_146_example_usage_4.png",
+      "cell_146_example_usage_6.png",
+      "cell_146_example_usage_7.png"
+    ],
+    "source_preview": "# Example usage patient_id = 350  # Replace with desired patient ID analyze_distribution_shape(patie"
+  },
+  {
+    "cell_index": 150,
+    "exec_count": 112,
+    "files": [
+      "cell_150_example_usage_1.png",
+      "cell_150_example_usage_3.png",
+      "cell_150_example_usage_5.png",
+      "cell_150_example_usage_7.png"
+    ],
+    "source_preview": "# Example usage patient_id = 350  # Replace with desired patient ID analyze_step_trends_and_outliers"
+  },
+  {
+    "cell_index": 155,
+    "exec_count": 114,
+    "files": [
+      "cell_155_example_usage_1.png",
+      "cell_155_example_usage_3.png",
+      "cell_155_example_usage_5.png",
+      "cell_155_example_usage_7.png"
+    ],
+    "source_preview": "# Example usage patient_id = 350  # Replace with the desired patient ID detect_gait_phases(patient_i"
+  },
+  {
+    "cell_index": 159,
+    "exec_count": 116,
+    "files": [
+      "cell_159_example_usage_2.png",
+      "cell_159_example_usage_3.png"
+    ],
+    "source_preview": "# Example usage region = \"pData\"  # Replace with \"pData\", \"pData_2\", etc. inter_patient_comparison(r"
+  },
+  {
+    "cell_index": 163,
+    "exec_count": 118,
+    "files": [
+      "cell_163_example_usage_2.png",
+      "cell_163_example_usage_3.png"
+    ],
+    "source_preview": "# Example usage region = \"pData\"  # Replace with \"pData\", \"pData_2\", \"pData_3\", \"pData_4\" detect_abn"
+  },
+  {
+    "cell_index": 164,
+    "exec_count": 119,
+    "files": [
+      "cell_164_region__pdata_2_replace_with_pdata_pdata_2_pdata_3_2.png",
+      "cell_164_region__pdata_2_replace_with_pdata_pdata_2_pdata_3_3.png"
+    ],
+    "source_preview": "region = \"pData_2\"  # Replace with \"pData\", \"pData_2\", \"pData_3\", \"pData_4\" detect_abnormal_patterns"
+  },
+  {
+    "cell_index": 165,
+    "exec_count": 120,
+    "files": [
+      "cell_165_region__pdata_3_replace_with_pdata_pdata_2_pdata_3_2.png",
+      "cell_165_region__pdata_3_replace_with_pdata_pdata_2_pdata_3_3.png"
+    ],
+    "source_preview": "region = \"pData_3\"  # Replace with \"pData\", \"pData_2\", \"pData_3\", \"pData_4\" detect_abnormal_patterns"
+  },
+  {
+    "cell_index": 166,
+    "exec_count": 121,
+    "files": [
+      "cell_166_region__pdata_4_replace_with_pdata_pdata_2_pdata_3_2.png",
+      "cell_166_region__pdata_4_replace_with_pdata_pdata_2_pdata_3_3.png"
+    ],
+    "source_preview": "region = \"pData_4\"  # Replace with \"pData\", \"pData_2\", \"pData_3\", \"pData_4\" detect_abnormal_patterns"
+  },
+  {
+    "cell_index": 169,
+    "exec_count": 123,
+    "files": [
+      "cell_169_example_usage.png"
+    ],
+    "source_preview": "# Example usage region_dbscan = \"pData\"  # Replace with \"pData\", \"pData_2\", \"pData_3\", \"pData_4\" det"
+  },
+  {
+    "cell_index": 170,
+    "exec_count": 124,
+    "files": [
+      "cell_170_region_dbscan__pdata_2_replace_with_pdata_pdata_2.png"
+    ],
+    "source_preview": "region_dbscan = \"pData_2\"  # Replace with \"pData\", \"pData_2\", \"pData_3\", \"pData_4\" detect_abnormal_w"
+  },
+  {
+    "cell_index": 171,
+    "exec_count": 125,
+    "files": [
+      "cell_171_region_dbscan__pdata_3_replace_with_pdata_pdata_2.png"
+    ],
+    "source_preview": "region_dbscan = \"pData_3\"  # Replace with \"pData\", \"pData_2\", \"pData_3\", \"pData_4\" detect_abnormal_w"
+  },
+  {
+    "cell_index": 172,
+    "exec_count": 126,
+    "files": [
+      "cell_172_region_dbscan__pdata_4_replace_with_pdata_pdata_2.png"
+    ],
+    "source_preview": "region_dbscan = \"pData_4\"  # Replace with \"pData\", \"pData_2\", \"pData_3\", \"pData_4\" detect_abnormal_w"
+  },
+  {
+    "cell_index": 176,
+    "exec_count": 129,
+    "files": [
+      "cell_176_example_usage_2.png",
+      "cell_176_example_usage_4.png",
+      "cell_176_example_usage_6.png",
+      "cell_176_example_usage_8.png"
+    ],
+    "source_preview": "# Example usage: detect_peak_pressure_abnormalities(350, \"pData\") detect_peak_pressure_abnormalities"
+  },
+  {
+    "cell_index": 186,
+    "exec_count": 133,
+    "files": [
+      "cell_186_compare_patient_to_baseline_using_dtw.png"
+    ],
+    "source_preview": " # Compare patient to baseline using DTW baseline_values = baseline_data['peak_pressure'].values pat"
+  },
+  {
+    "cell_index": 190,
+    "exec_count": 135,
+    "files": [
+      "cell_190_example_usage.png"
+    ],
+    "source_preview": "# Example Usage base_directory = \"Step_Segmentation_Metrics\" region = \"pData\"  # Dynamic region, e.g"
+  },
+  {
+    "cell_index": 191,
+    "exec_count": 136,
+    "files": [
+      "cell_191_region__pdata_dynamic_region_eg_pdata_pdata_2_etc.png"
+    ],
+    "source_preview": "region = \"pData\"  # Dynamic region, e.g., pData, pData_2, etc. model_path = os.path.join(\"Stepwise_M"
+  },
+  {
+    "cell_index": 192,
+    "exec_count": 137,
+    "files": [
+      "cell_192_example_usage.png"
+    ],
+    "source_preview": "# Example Usage base_directory = \"Step_Segmentation_Metrics\" region = \"pData_2\"  # Dynamic region, e"
+  },
+  {
+    "cell_index": 193,
+    "exec_count": 138,
+    "files": [
+      "cell_193_example_usage.png"
+    ],
+    "source_preview": "# Example Usage base_directory = \"Step_Segmentation_Metrics\" region = \"pData_2\"  # Dynamic region, e"
+  },
+  {
+    "cell_index": 194,
+    "exec_count": 139,
+    "files": [
+      "cell_194_example_usage.png"
+    ],
+    "source_preview": "# Example Usage base_directory = \"Step_Segmentation_Metrics\" region = \"pData_3\"  # Dynamic region, e"
+  },
+  {
+    "cell_index": 195,
+    "exec_count": 140,
+    "files": [
+      "cell_195_example_usage.png"
+    ],
+    "source_preview": "# Example Usage base_directory = \"Step_Segmentation_Metrics\" region = \"pData_3\"  # Dynamic region, e"
+  },
+  {
+    "cell_index": 196,
+    "exec_count": 141,
+    "files": [
+      "cell_196_example_usage.png"
+    ],
+    "source_preview": "# Example Usage base_directory = \"Step_Segmentation_Metrics\" region = \"pData_4\"  # Dynamic region, e"
+  },
+  {
+    "cell_index": 197,
+    "exec_count": 142,
+    "files": [
+      "cell_197_region__pdata_4_dynamic_region_eg_pdata_pdata_2_et.png"
+    ],
+    "source_preview": "region = \"pData_4\"  # Dynamic region, e.g., pData, pData_2, etc. model_path = os.path.join(\"Stepwise"
+  },
+  {
+    "cell_index": 198,
+    "exec_count": 143,
+    "files": [
+      "cell_198_region__pdata_4_dynamic_region_eg_pdata_pdata_2_et.png"
+    ],
+    "source_preview": "region = \"pData_4\"  # Dynamic region, e.g., pData, pData_2, etc. model_path = os.path.join(\"Stepwise"
+  },
+  {
+    "cell_index": 199,
+    "exec_count": 144,
+    "files": [
+      "cell_199_region__pdata_4_dynamic_region_eg_pdata_pdata_2_et.png"
+    ],
+    "source_preview": "region = \"pData_4\"  # Dynamic region, e.g., pData, pData_2, etc. model_path = os.path.join(\"Stepwise"
+  },
+  {
+    "cell_index": 200,
+    "exec_count": 145,
+    "files": [
+      "cell_200_region__pdata_4_dynamic_region_eg_pdata_pdata_2_et.png"
+    ],
+    "source_preview": "region = \"pData_4\"  # Dynamic region, e.g., pData, pData_2, etc. model_path = os.path.join(\"Stepwise"
+  },
+  {
+    "cell_index": 202,
+    "exec_count": 146,
+    "files": [
+      "cell_202_example_usage.png"
+    ],
+    "source_preview": "# Example Usage base_directory = \"Step_Segmentation_Metrics\" region = \"pData_4\"  # Dynamic region, e"
+  },
+  {
+    "cell_index": 204,
+    "exec_count": 147,
+    "files": [
+      "cell_204_region__pdata_4_dynamic_region_eg_pdata_pdata_2_et.png"
+    ],
+    "source_preview": "region = \"pData_4\"  # Dynamic region, e.g., pData, pData_2, etc. model_path = os.path.join(\"Stepwise"
+  },
+  {
+    "cell_index": 207,
+    "exec_count": 149,
+    "files": [
+      "cell_207_example_usage.png"
+    ],
+    "source_preview": "# Example usage base_directory = \"Step_Segmentation_Metrics\" region = \"pData\"  # Region to analyze p"
+  },
+  {
+    "cell_index": 208,
+    "exec_count": 150,
+    "files": [
+      "cell_208_region__pdata_region_to_analyze.png"
+    ],
+    "source_preview": "region = \"pData\"  # Region to analyze patient_id = 381  # Patient ID to analyze plot_dtw_load_balanc"
+  },
+  {
+    "cell_index": 209,
+    "exec_count": 151,
+    "files": [
+      "cell_209_region__pdata_2_region_to_analyze.png"
+    ],
+    "source_preview": "region = \"pData_2\"  # Region to analyze patient_id = 350  # Patient ID to analyze plot_dtw_load_bala"
+  },
+  {
+    "cell_index": 210,
+    "exec_count": 152,
+    "files": [
+      "cell_210_region__pdata_2_region_to_analyze.png"
+    ],
+    "source_preview": "region = \"pData_2\"  # Region to analyze patient_id = 381  # Patient ID to analyze plot_dtw_load_bala"
+  },
+  {
+    "cell_index": 211,
+    "exec_count": 153,
+    "files": [
+      "cell_211_region__pdata_2_region_to_analyze.png"
+    ],
+    "source_preview": "region = \"pData_2\"  # Region to analyze patient_id = 81  # Patient ID to analyze plot_dtw_load_balan"
+  },
+  {
+    "cell_index": 212,
+    "exec_count": 154,
+    "files": [
+      "cell_212_region__pdata_2_region_to_analyze.png"
+    ],
+    "source_preview": "region = \"pData_2\"  # Region to analyze patient_id = 296  # Patient ID to analyze plot_dtw_load_bala"
+  },
+  {
+    "cell_index": 219,
+    "exec_count": 156,
+    "files": [
+      "cell_219_create_template_as_the_mean_sequence_averaging_eac.png"
+    ],
+    "source_preview": "# Create template as the **mean sequence** (averaging each time point) over the first 20 steps templ"
+  },
+  {
+    "cell_index": 222,
+    "exec_count": 158,
+    "files": [
+      "cell_222_example_usage.png"
+    ],
+    "source_preview": "# Example Usage patient_id = 350  # Change this to any patient ID pdata_region = \"pData_4\"  # Change"
+  },
+  {
+    "cell_index": 225,
+    "exec_count": 161,
+    "files": [
+      "cell_225_example_usage.png"
+    ],
+    "source_preview": "# Example usage patient_id = 350 pdata_region1 = \"pData\" pdata_region2 = \"pData_4\" metric = \"peak_pr"
+  },
+  {
+    "cell_index": 227,
+    "exec_count": 163,
+    "files": [
+      "cell_227_example_usage_1.png",
+      "cell_227_example_usage_3.png"
+    ],
+    "source_preview": "# Example usage patient_id = 350  # Change to any patient ID pdata_region1 = \"pData\"  # Change to an"
+  },
+  {
+    "cell_index": 231,
+    "exec_count": 165,
+    "files": [
+      "cell_231_example_usage.png"
+    ],
+    "source_preview": " # Example usage: patient_id = 350  # Change this to any patient ID pdata_region1 = \"pData\"  # Chang"
+  },
+  {
+    "cell_index": 232,
+    "exec_count": 166,
+    "files": [
+      "cell_232_patient_id__296_change_this_to_any_patient_id.png"
+    ],
+    "source_preview": "patient_id = 296  # Change this to any patient ID pdata_region1 = \"pData\"  # Change to any pdata reg"
+  },
+  {
+    "cell_index": 233,
+    "exec_count": 167,
+    "files": [
+      "cell_233_patient_id__381_change_this_to_any_patient_id.png"
+    ],
+    "source_preview": "patient_id = 381  # Change this to any patient ID pdata_region1 = \"pData\"  # Change to any pdata reg"
+  },
+  {
+    "cell_index": 235,
+    "exec_count": 168,
+    "files": [
+      "cell_235_import_pandas_as_pd.png"
+    ],
+    "source_preview": "import pandas as pd import matplotlib.pyplot as plt  def load_baseline(file_path):     \"\"\" Load base"
+  },
+  {
+    "cell_index": 239,
+    "exec_count": 171,
+    "files": [
+      "cell_239_for_region_in_pdata_regions_1.png",
+      "cell_239_for_region_in_pdata_regions_3.png",
+      "cell_239_for_region_in_pdata_regions_5.png",
+      "cell_239_for_region_in_pdata_regions_7.png"
+    ],
+    "source_preview": "for region in pdata_regions:     # Generate paths for all patients in this region     patient_ids = "
+  },
+  {
+    "cell_index": 246,
+    "exec_count": 176,
+    "files": [
+      "cell_246_example_usage.png"
+    ],
+    "source_preview": "# Example usage: baseline_path1 = r'D:\\Study\\Gait\\Step_Segmentation_Metrics\\Baselines\\pData_stepwise"
+  },
+  {
+    "cell_index": 250,
+    "exec_count": 179,
+    "files": [
+      "cell_250_you_can_now_specify_different_labels_to_compare_di.png"
+    ],
+    "source_preview": "# You can now specify different labels to compare different regions dynamically: plot_dtw_alignment_"
+  },
+  {
+    "cell_index": 251,
+    "exec_count": 180,
+    "files": [
+      "cell_251_plot_dtw_alignment_with_peaksbaseline_path1_baseli.png"
+    ],
+    "source_preview": "plot_dtw_alignment_with_peaks(baseline_path1, baseline_path3, 'peak_pressure', label1=\"pData\", label"
+  },
+  {
+    "cell_index": 252,
+    "exec_count": 181,
+    "files": [
+      "cell_252_plot_dtw_alignment_with_peaksbaseline_path1_baseli.png"
+    ],
+    "source_preview": "plot_dtw_alignment_with_peaks(baseline_path1, baseline_path2, 'peak_pressure', label1=\"pData\", label"
+  },
+  {
+    "cell_index": 255,
+    "exec_count": 183,
+    "files": [
+      "cell_255_you_can_now_specify_different_labels_to_compare_di.png"
+    ],
+    "source_preview": "# You can now specify different labels to compare different regions dynamically: plot_dtw_alignment_"
+  },
+  {
+    "cell_index": 256,
+    "exec_count": 184,
+    "files": [
+      "cell_256_plot_dtw_alignment_with_peaksp350_pdata2_baseline_.png"
+    ],
+    "source_preview": "plot_dtw_alignment_with_peaks(p350_pdata2, baseline_path2, 'peak_pressure', label1=\"Patient 350 Pdat"
+  },
+  {
+    "cell_index": 257,
+    "exec_count": 185,
+    "files": [
+      "cell_257_plot_dtw_alignment_with_peaksp350_pdata3_baseline_.png"
+    ],
+    "source_preview": "plot_dtw_alignment_with_peaks(p350_pdata3, baseline_path3, 'peak_pressure', label1=\"Patient 350 Pdat"
+  },
+  {
+    "cell_index": 258,
+    "exec_count": 186,
+    "files": [
+      "cell_258_you_can_now_specify_different_labels_to_compare_di.png"
+    ],
+    "source_preview": "# You can now specify different labels to compare different regions dynamically: plot_dtw_alignment_"
+  },
+  {
+    "cell_index": 260,
+    "exec_count": 187,
+    "files": [
+      "cell_260_plot_dtw_alignment_with_peaksp49_pdata2_baseline_p.png"
+    ],
+    "source_preview": "plot_dtw_alignment_with_peaks(p49_pdata2, baseline_path2, 'peak_pressure', label1=\"Patient 49 Pdata2"
+  },
+  {
+    "cell_index": 261,
+    "exec_count": 188,
+    "files": [
+      "cell_261_plot_dtw_alignment_with_peaksp49_pdata3_baseline_p.png"
+    ],
+    "source_preview": "plot_dtw_alignment_with_peaks(p49_pdata3, baseline_path3, 'peak_pressure', label1=\"Patient 49 Pdata3"
+  },
+  {
+    "cell_index": 262,
+    "exec_count": 189,
+    "files": [
+      "cell_262_plot_dtw_alignment_with_peaksp49_pdata4_baseline_p.png"
+    ],
+    "source_preview": "plot_dtw_alignment_with_peaks(p49_pdata4, baseline_path4, 'peak_pressure', label1=\"Patient 49 Pdata4"
+  },
+  {
+    "cell_index": 266,
+    "exec_count": 191,
+    "files": [
+      "cell_266_paths_for_stepwise_baselines.png"
+    ],
+    "source_preview": "# Paths for stepwise baselines baseline_paths = [     r'D:\\Study\\Gait\\Step_Segmentation_Metrics\\Base"
+  },
+  {
+    "cell_index": 269,
+    "exec_count": 192,
+    "files": [
+      "cell_269_patient_distribution.png"
+    ],
+    "source_preview": "# Patient distribution patient_counts = {     \"Metatarsal 1 (pData)\": 8,  # Example counts     \"Meta"
+  },
+  {
+    "cell_index": 270,
+    "exec_count": 193,
+    "files": [
+      "cell_270_import_matplotlibpyplot_as_plt.png"
+    ],
+    "source_preview": "import matplotlib.pyplot as plt from PIL import Image  # Load the foot image image_path = r\"D:\\Study"
+  },
+  {
+    "cell_index": 271,
+    "exec_count": 194,
+    "files": [
+      "cell_271_import_os_required_to_list_directories.png"
+    ],
+    "source_preview": "import os  # Required to list directories import matplotlib.pyplot as plt  # Patient counts for each"
+  },
+  {
+    "cell_index": 272,
+    "exec_count": 195,
+    "files": [
+      "cell_272_import_pandas_as_pd.png"
+    ],
+    "source_preview": "import pandas as pd import seaborn as sns  # Example: Load stepwise baseline paths for all regions b"
+  },
+  {
+    "cell_index": 273,
+    "exec_count": 196,
+    "files": [
+      "cell_273_metric_name__peak_pressure.png"
+    ],
+    "source_preview": "metric_name = \"peak_pressure\" mean_metrics = {}  for region, path in baseline_paths.items():     df "
+  },
+  {
+    "cell_index": 274,
+    "exec_count": 197,
+    "files": [
+      "cell_274_import_numpy_as_np.png"
+    ],
+    "source_preview": "import numpy as np import seaborn as sns  missing_data = {}  for region, path in baseline_paths.item"
+  },
+  {
+    "cell_index": 277,
+    "exec_count": 199,
+    "files": [
+      "cell_277_example_usage_1.png",
+      "cell_277_example_usage_2.png"
+    ],
+    "source_preview": "# Example usage: baseline_paths = {     \"pData\": r'D:\\Study\\Gait\\Step_Segmentation_Metrics\\Baselines"
+  },
+  {
+    "cell_index": 280,
+    "exec_count": 200,
+    "files": [
+      "cell_280_def_plot_region_correlationbaseline_paths.png"
+    ],
+    "source_preview": "def plot_region_correlation(baseline_paths):     \"\"\"     Plot correlation heatmap between different "
+  },
+  {
+    "cell_index": 283,
+    "exec_count": 201,
+    "files": [
+      "cell_283_def_plot_pressure_retentionbaseline_paths_metric_n.png"
+    ],
+    "source_preview": "def plot_pressure_retention(baseline_paths, metric_name='peak_pressure'):     \"\"\"     Plot pressure "
+  },
+  {
+    "cell_index": 288,
+    "exec_count": 203,
+    "files": [
+      "cell_288_plot_dtw_alignment_with_peaksp114_pdata4_baseline_.png"
+    ],
+    "source_preview": "plot_dtw_alignment_with_peaks(p114_pdata4, baseline_path4, 'peak_pressure', label1=\"Patient 114 Pdat"
+  },
+  {
+    "cell_index": 289,
+    "exec_count": 204,
+    "files": [
+      "cell_289_plot_dtw_alignment_with_peaksp116_pdata4_baseline_.png"
+    ],
+    "source_preview": "plot_dtw_alignment_with_peaks(p116_pdata4, baseline_path4, 'peak_pressure', label1=\"Patient 116 Pdat"
+  },
+  {
+    "cell_index": 290,
+    "exec_count": 205,
+    "files": [
+      "cell_290_plot_dtw_alignment_with_peaksp240_pdata4_baseline_.png"
+    ],
+    "source_preview": "plot_dtw_alignment_with_peaks(p240_pdata4, baseline_path4, 'peak_pressure', label1=\"Patient 240 Pdat"
+  },
+  {
+    "cell_index": 291,
+    "exec_count": 206,
+    "files": [
+      "cell_291_plot_dtw_alignment_with_peaksp296_pdata4_baseline_.png"
+    ],
+    "source_preview": "plot_dtw_alignment_with_peaks(p296_pdata4, baseline_path4, 'peak_pressure', label1=\"Patient 296 Pdat"
+  },
+  {
+    "cell_index": 292,
+    "exec_count": 207,
+    "files": [
+      "cell_292_plot_dtw_alignment_with_peaksp325_pdata4_baseline_.png"
+    ],
+    "source_preview": "plot_dtw_alignment_with_peaks(p325_pdata4, baseline_path4, 'peak_pressure', label1=\"Patient 325 Pdat"
+  },
+  {
+    "cell_index": 293,
+    "exec_count": 208,
+    "files": [
+      "cell_293_plot_dtw_alignment_with_peaksp352_pdata4_baseline_.png"
+    ],
+    "source_preview": "plot_dtw_alignment_with_peaks(p352_pdata4, baseline_path4, 'peak_pressure', label1=\"Patient 352 Pdat"
+  },
+  {
+    "cell_index": 294,
+    "exec_count": 209,
+    "files": [
+      "cell_294_plot_dtw_alignment_with_peaksp381_pdata4_baseline_.png"
+    ],
+    "source_preview": "plot_dtw_alignment_with_peaks(p381_pdata4, baseline_path4, 'peak_pressure', label1=\"Patient 381 Pdat"
+  },
+  {
+    "cell_index": 297,
+    "exec_count": 210,
+    "files": [
+      "cell_297_paths_to_stepwise_baseline_files_for_all_regions.png"
+    ],
+    "source_preview": "# Paths to stepwise baseline files for all regions baseline_paths = {     \"pData\": r'D:\\Study\\Gait\\S"
+  },
+  {
+    "cell_index": 298,
+    "exec_count": 211,
+    "files": [
+      "cell_298_def_plot_auc_trends_across_regionsbaseline_paths.png"
+    ],
+    "source_preview": "def plot_auc_trends_across_regions(baseline_paths):     plt.figure(figsize=(14, 8))          for reg"
+  },
+  {
+    "cell_index": 299,
+    "exec_count": 212,
+    "files": [
+      "cell_299_def_plot_average_auc_per_regionbaseline_paths.png"
+    ],
+    "source_preview": "def plot_average_auc_per_region(baseline_paths):     regions = []     avg_auc_values = []      for r"
+  },
+  {
+    "cell_index": 300,
+    "exec_count": 213,
+    "files": [
+      "cell_300_def_plot_auc_variance_across_regionsbaseline_paths.png"
+    ],
+    "source_preview": "def plot_auc_variance_across_regions(baseline_paths):     regions = []     auc_variances = []      f"
+  },
+  {
+    "cell_index": 302,
+    "exec_count": 214,
+    "files": [
+      "cell_302_def_plot_rise_gradient_heatmap_across_regionsbasel.png"
+    ],
+    "source_preview": "def plot_rise_gradient_heatmap_across_regions(baseline_paths):     gradient_data = []     regions = "
+  },
+  {
+    "cell_index": 303,
+    "exec_count": 215,
+    "files": [
+      "cell_303_def_plot_rise_gradient_scatter_comparisonbaseline_.png"
+    ],
+    "source_preview": "def plot_rise_gradient_scatter_comparison(baseline_paths):     plt.figure(figsize=(10, 6))      for "
+  },
+  {
+    "cell_index": 305,
+    "exec_count": 216,
+    "files": [
+      "cell_305_def_plot_variance_boxplot_across_regionsbaseline_p.png"
+    ],
+    "source_preview": "def plot_variance_boxplot_across_regions(baseline_paths):     variance_data = []      for region, pa"
+  },
+  {
+    "cell_index": 311,
+    "exec_count": 218,
+    "files": [
+      "cell_311_load_stepwise_baseline_data.png"
+    ],
+    "source_preview": "# Load stepwise baseline data baseline_path = r'D:\\Study\\Gait\\Step_Segmentation_Metrics\\Baselines\\pD"
+  },
+  {
+    "cell_index": 317,
+    "exec_count": 220,
+    "files": [
+      "cell_317_example_usage.png"
+    ],
+    "source_preview": "# Example usage baseline_path1 = r'D:\\Study\\Gait\\Step_Segmentation_Metrics\\Baselines\\pData_stepwise_"
+  },
+  {
+    "cell_index": 327,
+    "exec_count": 225,
+    "files": [
+      "cell_327_example_usage.png"
+    ],
+    "source_preview": "# Example Usage: base_directory = \"Step_Segmentation_Metrics_tdata\"  # Updated base directory region"
+  },
+  {
+    "cell_index": 328,
+    "exec_count": 226,
+    "files": [
+      "cell_328_region__pdata_2_example_choose_the_foot_region_to.png"
+    ],
+    "source_preview": "region = \"pData_2\"  # Example: Choose the foot region to visualize patient_id = 350  # Patient ID fo"
+  },
+  {
+    "cell_index": 329,
+    "exec_count": 227,
+    "files": [
+      "cell_329_base_directory__step_segmentation_metrics_tdata_up.png"
+    ],
+    "source_preview": "base_directory = \"Step_Segmentation_Metrics_tdata\"  # Updated base directory region = \"pData_2\"  # E"
+  },
+  {
+    "cell_index": 330,
+    "exec_count": 228,
+    "files": [
+      "cell_330_region__pdata_3_example_choose_the_foot_region_to.png"
+    ],
+    "source_preview": "region = \"pData_3\"  # Example: Choose the foot region to visualize patient_id = 350  # Patient ID fo"
+  },
+  {
+    "cell_index": 331,
+    "exec_count": 229,
+    "files": [
+      "cell_331_region__pdata_3_example_choose_the_foot_region_to.png"
+    ],
+    "source_preview": "region = \"pData_3\"  # Example: Choose the foot region to visualize patient_id = 60 # Patient ID for "
+  },
+  {
+    "cell_index": 332,
+    "exec_count": 230,
+    "files": [
+      "cell_332_region__pdata_4_example_choose_the_foot_region_to.png"
+    ],
+    "source_preview": "region = \"pData_4\"  # Example: Choose the foot region to visualize patient_id = 350  # Patient ID fo"
+  },
+  {
+    "cell_index": 333,
+    "exec_count": 231,
+    "files": [
+      "cell_333_region__pdata_4_example_choose_the_foot_region_to.png"
+    ],
+    "source_preview": "region = \"pData_4\"  # Example: Choose the foot region to visualize patient_id = 295  # Patient ID fo"
+  },
+  {
+    "cell_index": 336,
+    "exec_count": 233,
+    "files": [
+      "cell_336_example_usage.png"
+    ],
+    "source_preview": "# Example Usage: base_directory = \"Step_Segmentation_Metrics_tdata\"  # Updated base directory region"
+  },
+  {
+    "cell_index": 338,
+    "exec_count": 235,
+    "files": [
+      "cell_338_example_usage_3.png",
+      "cell_338_example_usage_4.png",
+      "cell_338_example_usage_5.png"
+    ],
+    "source_preview": "# Example usage base_directory = \"Step_Segmentation_Metrics_tdata\"  # Updated base directory region "
+  },
+  {
+    "cell_index": 342,
+    "exec_count": 236,
+    "files": [
+      "cell_342_function_for_dualaxis_overlay_and_scatter_plot_for_1.png",
+      "cell_342_function_for_dualaxis_overlay_and_scatter_plot_for_2.png"
+    ],
+    "source_preview": "# Function for dual-axis overlay and scatter plot for descent gradient and temperature def visualize"
+  },
+  {
+    "cell_index": 343,
+    "exec_count": 237,
+    "files": [
+      "cell_343_region__pdata_example_choose_the_foot_region_to_vi_1.png",
+      "cell_343_region__pdata_example_choose_the_foot_region_to_vi_2.png"
+    ],
+    "source_preview": "region = \"pData\"  # Example: choose the foot region to visualize patient_id = 296  # Patient ID for "
+  },
+  {
+    "cell_index": 344,
+    "exec_count": 238,
+    "files": [
+      "cell_344_region__pdata_example_choose_the_foot_region_to_vi_1.png",
+      "cell_344_region__pdata_example_choose_the_foot_region_to_vi_2.png"
+    ],
+    "source_preview": "region = \"pData\"  # Example: choose the foot region to visualize patient_id = 381  # Patient ID for "
+  },
+  {
+    "cell_index": 345,
+    "exec_count": 239,
+    "files": [
+      "cell_345_region__pdata_example_choose_the_foot_region_to_vi_1.png",
+      "cell_345_region__pdata_example_choose_the_foot_region_to_vi_2.png"
+    ],
+    "source_preview": "region = \"pData\"  # Example: choose the foot region to visualize patient_id = 325  # Patient ID for "
+  },
+  {
+    "cell_index": 346,
+    "exec_count": 240,
+    "files": [
+      "cell_346_region__pdata_example_choose_the_foot_region_to_vi_1.png",
+      "cell_346_region__pdata_example_choose_the_foot_region_to_vi_2.png"
+    ],
+    "source_preview": "region = \"pData\"  # Example: choose the foot region to visualize patient_id = 352  # Patient ID for "
+  },
+  {
+    "cell_index": 348,
+    "exec_count": 241,
+    "files": [
+      "cell_348_region__pdata_2_example_choose_the_foot_region_to_1.png",
+      "cell_348_region__pdata_2_example_choose_the_foot_region_to_2.png"
+    ],
+    "source_preview": "region = \"pData_2\"  # Example: choose the foot region to visualize patient_id = 350  # Patient ID fo"
+  },
+  {
+    "cell_index": 349,
+    "exec_count": 242,
+    "files": [
+      "cell_349_region__pdata_2_example_choose_the_foot_region_to_1.png",
+      "cell_349_region__pdata_2_example_choose_the_foot_region_to_2.png"
+    ],
+    "source_preview": "region = \"pData_2\"  # Example: choose the foot region to visualize patient_id = 296  # Patient ID fo"
+  },
+  {
+    "cell_index": 350,
+    "exec_count": 243,
+    "files": [
+      "cell_350_region__pdata_2_example_choose_the_foot_region_to_1.png",
+      "cell_350_region__pdata_2_example_choose_the_foot_region_to_2.png"
+    ],
+    "source_preview": "region = \"pData_2\"  # Example: choose the foot region to visualize patient_id = 295  # Patient ID fo"
+  },
+  {
+    "cell_index": 351,
+    "exec_count": 244,
+    "files": [
+      "cell_351_region__pdata_2_example_choose_the_foot_region_to_1.png",
+      "cell_351_region__pdata_2_example_choose_the_foot_region_to_2.png"
+    ],
+    "source_preview": "region = \"pData_2\"  # Example: choose the foot region to visualize patient_id = 381  # Patient ID fo"
+  },
+  {
+    "cell_index": 353,
+    "exec_count": 245,
+    "files": [
+      "cell_353_region__pdata_3_example_choose_the_foot_region_to_1.png",
+      "cell_353_region__pdata_3_example_choose_the_foot_region_to_2.png"
+    ],
+    "source_preview": "region = \"pData_3\"  # Example: choose the foot region to visualize patient_id = 350  # Patient ID fo"
+  },
+  {
+    "cell_index": 354,
+    "exec_count": 246,
+    "files": [
+      "cell_354_region__pdata_3_example_choose_the_foot_region_to_1.png",
+      "cell_354_region__pdata_3_example_choose_the_foot_region_to_2.png"
+    ],
+    "source_preview": "region = \"pData_3\"  # Example: choose the foot region to visualize patient_id = 60  # Patient ID for"
+  },
+  {
+    "cell_index": 355,
+    "exec_count": 247,
+    "files": [
+      "cell_355_region__pdata_3_example_choose_the_foot_region_to_1.png",
+      "cell_355_region__pdata_3_example_choose_the_foot_region_to_2.png"
+    ],
+    "source_preview": "region = \"pData_3\"  # Example: choose the foot region to visualize patient_id = 296  # Patient ID fo"
+  },
+  {
+    "cell_index": 356,
+    "exec_count": 248,
+    "files": [
+      "cell_356_region__pdata_3_example_choose_the_foot_region_to_1.png",
+      "cell_356_region__pdata_3_example_choose_the_foot_region_to_2.png"
+    ],
+    "source_preview": "region = \"pData_3\"  # Example: choose the foot region to visualize patient_id = 49  # Patient ID for"
+  },
+  {
+    "cell_index": 357,
+    "exec_count": 249,
+    "files": [
+      "cell_357_region__pdata_3_example_choose_the_foot_region_to_1.png",
+      "cell_357_region__pdata_3_example_choose_the_foot_region_to_2.png"
+    ],
+    "source_preview": "region = \"pData_3\"  # Example: choose the foot region to visualize patient_id = 47  # Patient ID for"
+  },
+  {
+    "cell_index": 359,
+    "exec_count": 250,
+    "files": [
+      "cell_359_region__pdata_4_example_choose_the_foot_region_to_1.png",
+      "cell_359_region__pdata_4_example_choose_the_foot_region_to_2.png"
+    ],
+    "source_preview": "region = \"pData_4\"  # Example: choose the foot region to visualize patient_id = 350  # Patient ID fo"
+  },
+  {
+    "cell_index": 361,
+    "exec_count": 251,
+    "files": [
+      "cell_361_region__pdata_4_example_choose_the_foot_region_to_1.png",
+      "cell_361_region__pdata_4_example_choose_the_foot_region_to_2.png"
+    ],
+    "source_preview": "region = \"pData_4\"  # Example: choose the foot region to visualize patient_id = 43  # Patient ID for"
+  },
+  {
+    "cell_index": 362,
+    "exec_count": 252,
+    "files": [
+      "cell_362_region__pdata_4_example_choose_the_foot_region_to_1.png",
+      "cell_362_region__pdata_4_example_choose_the_foot_region_to_2.png"
+    ],
+    "source_preview": "region = \"pData_4\"  # Example: choose the foot region to visualize patient_id = 49  # Patient ID for"
+  },
+  {
+    "cell_index": 363,
+    "exec_count": 253,
+    "files": [
+      "cell_363_region__pdata_4_example_choose_the_foot_region_to_1.png",
+      "cell_363_region__pdata_4_example_choose_the_foot_region_to_2.png"
+    ],
+    "source_preview": "region = \"pData_4\"  # Example: choose the foot region to visualize patient_id = 105  # Patient ID fo"
+  },
+  {
+    "cell_index": 364,
+    "exec_count": 254,
+    "files": [
+      "cell_364_region__pdata_4_example_choose_the_foot_region_to_1.png",
+      "cell_364_region__pdata_4_example_choose_the_foot_region_to_2.png"
+    ],
+    "source_preview": "region = \"pData_4\"  # Example: choose the foot region to visualize patient_id = 295  # Patient ID fo"
+  },
+  {
+    "cell_index": 365,
+    "exec_count": 255,
+    "files": [
+      "cell_365_region__pdata_4_example_choose_the_foot_region_to_1.png",
+      "cell_365_region__pdata_4_example_choose_the_foot_region_to_2.png"
+    ],
+    "source_preview": "region = \"pData_4\"  # Example: choose the foot region to visualize patient_id = 350  # Patient ID fo"
+  },
+  {
+    "cell_index": 367,
+    "exec_count": 256,
+    "files": [
+      "cell_367_function_for_dualaxis_overlay_and_scatter_plot_for_3.png",
+      "cell_367_function_for_dualaxis_overlay_and_scatter_plot_for_4.png",
+      "cell_367_function_for_dualaxis_overlay_and_scatter_plot_for_5.png"
+    ],
+    "source_preview": "# Function for dual-axis overlay and scatter plot for descent gradient and temperature def visualize"
+  },
+  {
+    "cell_index": 368,
+    "exec_count": 257,
+    "files": [
+      "cell_368_example_usage_3.png",
+      "cell_368_example_usage_4.png",
+      "cell_368_example_usage_5.png"
+    ],
+    "source_preview": "# Example usage base_directory = \"Step_Segmentation_Metrics_tdata\" region = \"pData_2\"  # Example: ch"
+  },
+  {
+    "cell_index": 369,
+    "exec_count": 258,
+    "files": [
+      "cell_369_example_usage_3.png",
+      "cell_369_example_usage_4.png",
+      "cell_369_example_usage_5.png"
+    ],
+    "source_preview": "# Example usage base_directory = \"Step_Segmentation_Metrics_tdata\" region = \"pData_3\"  # Example: ch"
+  },
+  {
+    "cell_index": 370,
+    "exec_count": 259,
+    "files": [
+      "cell_370_example_usage_3.png",
+      "cell_370_example_usage_4.png",
+      "cell_370_example_usage_5.png"
+    ],
+    "source_preview": "# Example usage base_directory = \"Step_Segmentation_Metrics_tdata\" region = \"pData_4\"  # Example: ch"
+  },
+  {
+    "cell_index": 371,
+    "exec_count": 260,
+    "files": [
+      "cell_371_example_usage_3.png",
+      "cell_371_example_usage_4.png",
+      "cell_371_example_usage_5.png"
+    ],
+    "source_preview": "# Example usage region = \"pData\"  # Example: choose the foot region to visualize patient_id = 296  #"
+  },
+  {
+    "cell_index": 372,
+    "exec_count": 261,
+    "files": [
+      "cell_372_example_usage_3.png",
+      "cell_372_example_usage_4.png",
+      "cell_372_example_usage_5.png"
+    ],
+    "source_preview": "# Example usage base_directory = \"Step_Segmentation_Metrics_tdata\" region = \"pData_2\"  # Example: ch"
+  },
+  {
+    "cell_index": 373,
+    "exec_count": 262,
+    "files": [
+      "cell_373_example_usage_3.png",
+      "cell_373_example_usage_4.png",
+      "cell_373_example_usage_5.png"
+    ],
+    "source_preview": "# Example usage base_directory = \"Step_Segmentation_Metrics_tdata\" region = \"pData_3\"  # Example: ch"
+  },
+  {
+    "cell_index": 374,
+    "exec_count": 263,
+    "files": [
+      "cell_374_example_usage_3.png",
+      "cell_374_example_usage_4.png",
+      "cell_374_example_usage_5.png"
+    ],
+    "source_preview": "# Example usage base_directory = \"Step_Segmentation_Metrics_tdata\" region = \"pData_4\"  # Example: ch"
+  },
+  {
+    "cell_index": 383,
+    "exec_count": 266,
+    "files": [
+      "cell_383_example_usage_1.png",
+      "cell_383_example_usage_2.png",
+      "cell_383_example_usage_3.png",
+      "cell_383_example_usage_4.png"
+    ],
+    "source_preview": "# Example usage base_directory = \"Step_Segmentation_Metrics_tdata\" region = \"pData\"  # Example: choo"
+  },
+  {
+    "cell_index": 384,
+    "exec_count": 267,
+    "files": [
+      "cell_384_example_usage_1.png",
+      "cell_384_example_usage_2.png",
+      "cell_384_example_usage_3.png",
+      "cell_384_example_usage_4.png"
+    ],
+    "source_preview": "# Example usage base_directory = \"Step_Segmentation_Metrics_tdata\" region = \"pData\"  # Example: choo"
+  },
+  {
+    "cell_index": 385,
+    "exec_count": 268,
+    "files": [
+      "cell_385_example_usage_1.png",
+      "cell_385_example_usage_2.png",
+      "cell_385_example_usage_3.png",
+      "cell_385_example_usage_4.png"
+    ],
+    "source_preview": "# Example usage base_directory = \"Step_Segmentation_Metrics_tdata\" region = \"pData\"  # Example: choo"
+  },
+  {
+    "cell_index": 386,
+    "exec_count": 269,
+    "files": [
+      "cell_386_example_usage_1.png",
+      "cell_386_example_usage_2.png",
+      "cell_386_example_usage_3.png",
+      "cell_386_example_usage_4.png"
+    ],
+    "source_preview": "# Example usage base_directory = \"Step_Segmentation_Metrics_tdata\" region = \"pData\"  # Example: choo"
+  },
+  {
+    "cell_index": 387,
+    "exec_count": 270,
+    "files": [
+      "cell_387_example_usage_1.png",
+      "cell_387_example_usage_2.png",
+      "cell_387_example_usage_3.png",
+      "cell_387_example_usage_4.png"
+    ],
+    "source_preview": "# Example usage base_directory = \"Step_Segmentation_Metrics_tdata\" region = \"pData\"  # Example: choo"
+  },
+  {
+    "cell_index": 389,
+    "exec_count": 271,
+    "files": [
+      "cell_389_example_usage_1.png",
+      "cell_389_example_usage_2.png",
+      "cell_389_example_usage_3.png",
+      "cell_389_example_usage_4.png"
+    ],
+    "source_preview": "# Example usage base_directory = \"Step_Segmentation_Metrics_tdata\" region = \"pData_2\"  # Example: ch"
+  },
+  {
+    "cell_index": 390,
+    "exec_count": 272,
+    "files": [
+      "cell_390_example_usage_1.png",
+      "cell_390_example_usage_2.png",
+      "cell_390_example_usage_3.png",
+      "cell_390_example_usage_4.png"
+    ],
+    "source_preview": "# Example usage base_directory = \"Step_Segmentation_Metrics_tdata\" region = \"pData_2\"  # Example: ch"
+  },
+  {
+    "cell_index": 391,
+    "exec_count": 273,
+    "files": [
+      "cell_391_example_usage_1.png",
+      "cell_391_example_usage_2.png",
+      "cell_391_example_usage_3.png",
+      "cell_391_example_usage_4.png"
+    ],
+    "source_preview": "# Example usage base_directory = \"Step_Segmentation_Metrics_tdata\" region = \"pData\"  # Example: choo"
+  },
+  {
+    "cell_index": 393,
+    "exec_count": 274,
+    "files": [
+      "cell_393_example_usage_1.png",
+      "cell_393_example_usage_2.png",
+      "cell_393_example_usage_3.png",
+      "cell_393_example_usage_4.png"
+    ],
+    "source_preview": "# Example usage base_directory = \"Step_Segmentation_Metrics_tdata\" region = \"pData_3\"  # Example: ch"
+  },
+  {
+    "cell_index": 394,
+    "exec_count": 275,
+    "files": [
+      "cell_394_example_usage_1.png",
+      "cell_394_example_usage_2.png",
+      "cell_394_example_usage_3.png",
+      "cell_394_example_usage_4.png"
+    ],
+    "source_preview": "# Example usage base_directory = \"Step_Segmentation_Metrics_tdata\" region = \"pData_3\"  # Example: ch"
+  },
+  {
+    "cell_index": 396,
+    "exec_count": 276,
+    "files": [
+      "cell_396_example_usage_1.png",
+      "cell_396_example_usage_2.png",
+      "cell_396_example_usage_3.png",
+      "cell_396_example_usage_4.png"
+    ],
+    "source_preview": "# Example usage base_directory = \"Step_Segmentation_Metrics_tdata\" region = \"pData_4\"  # Example: ch"
+  },
+  {
+    "cell_index": 397,
+    "exec_count": 277,
+    "files": [
+      "cell_397_example_usage_1.png",
+      "cell_397_example_usage_2.png",
+      "cell_397_example_usage_3.png",
+      "cell_397_example_usage_4.png"
+    ],
+    "source_preview": "# Example usage region = \"pData_4\"  # Example: choose the foot region to visualize patient_id = 43  "
+  },
+  {
+    "cell_index": 398,
+    "exec_count": 278,
+    "files": [
+      "cell_398_example_usage_1.png",
+      "cell_398_example_usage_2.png",
+      "cell_398_example_usage_3.png",
+      "cell_398_example_usage_4.png"
+    ],
+    "source_preview": "# Example usage base_directory = \"Step_Segmentation_Metrics_tdata\" region = \"pData_4\"  # Example: ch"
+  },
+  {
+    "cell_index": 399,
+    "exec_count": 279,
+    "files": [
+      "cell_399_example_usage_1.png",
+      "cell_399_example_usage_2.png",
+      "cell_399_example_usage_3.png",
+      "cell_399_example_usage_4.png"
+    ],
+    "source_preview": "# Example usage base_directory = \"Step_Segmentation_Metrics_tdata\" region = \"pData_4\"  # Example: ch"
+  },
+  {
+    "cell_index": 401,
+    "exec_count": 280,
+    "files": [
+      "cell_401_import_os.png"
+    ],
+    "source_preview": "import os import pandas as pd import matplotlib.pyplot as plt  def plot_baseline_comparison(base_dir"
+  },
+  {
+    "cell_index": 405,
+    "exec_count": 283,
+    "files": [
+      "cell_405_base_directory__step_segmentation_metrics_tdata_1.png",
+      "cell_405_base_directory__step_segmentation_metrics_tdata_2.png",
+      "cell_405_base_directory__step_segmentation_metrics_tdata_3.png",
+      "cell_405_base_directory__step_segmentation_metrics_tdata_4.png",
+      "cell_405_base_directory__step_segmentation_metrics_tdata_5.png",
+      "cell_405_base_directory__step_segmentation_metrics_tdata_6.png",
+      "cell_405_base_directory__step_segmentation_metrics_tdata_7.png"
+    ],
+    "source_preview": "base_directory = \"Step_Segmentation_Metrics_tdata\" plot_dtw_baseline_temperature(base_directory, 'pD"
+  },
+  {
+    "cell_index": 406,
+    "exec_count": 284,
+    "files": [
+      "cell_406_base_directory__step_segmentation_metrics_tdata_1.png",
+      "cell_406_base_directory__step_segmentation_metrics_tdata_2.png",
+      "cell_406_base_directory__step_segmentation_metrics_tdata_3.png",
+      "cell_406_base_directory__step_segmentation_metrics_tdata_4.png",
+      "cell_406_base_directory__step_segmentation_metrics_tdata_5.png",
+      "cell_406_base_directory__step_segmentation_metrics_tdata_6.png",
+      "cell_406_base_directory__step_segmentation_metrics_tdata_7.png"
+    ],
+    "source_preview": "base_directory = \"Step_Segmentation_Metrics_tdata\" plot_dtw_baseline_temperature(base_directory, 'pD"
+  },
+  {
+    "cell_index": 407,
+    "exec_count": 285,
+    "files": [
+      "cell_407_base_directory__step_segmentation_metrics_tdata_1.png",
+      "cell_407_base_directory__step_segmentation_metrics_tdata_2.png",
+      "cell_407_base_directory__step_segmentation_metrics_tdata_3.png",
+      "cell_407_base_directory__step_segmentation_metrics_tdata_4.png",
+      "cell_407_base_directory__step_segmentation_metrics_tdata_5.png",
+      "cell_407_base_directory__step_segmentation_metrics_tdata_6.png",
+      "cell_407_base_directory__step_segmentation_metrics_tdata_7.png"
+    ],
+    "source_preview": "base_directory = \"Step_Segmentation_Metrics_tdata\" plot_dtw_baseline_temperature(base_directory, 'pD"
+  }
+]

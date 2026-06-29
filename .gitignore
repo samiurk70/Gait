@@ -1,0 +1,68 @@
+# ---------------------------------------------------------------------------
+# Python environments
+# ---------------------------------------------------------------------------
+.venv/
+.venv_linux/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------------------
+# Manuscript, report, and private working documents (kept out of public repo)
+# ---------------------------------------------------------------------------
+paper/
+Report/
+RESEARCH_PAPER_INSTRUCTIONS.md
+Claudes Verdict.txt
+Note from Gemini.docx
+Note from Gemini.pdf
+Articles _ Visual Computing for Industry, Biomedicine, and Art _ Springer Nature Link.pdf
+Submission guidelines _ Visual Computing for Industry, Biomedicine, and Art _ Springer Nature Link.pdf
+
+# Catch-all for document/exports cruft (source artefacts are .py/.ipynb/.csv/.png/.json/.md/.tex)
+*.pdf
+*.docx
+*.html
+
+# ---------------------------------------------------------------------------
+# Scratch / diagnostic scripts and dumps (underscore-prefixed working files)
+# ---------------------------------------------------------------------------
+_*.py
+_*.txt
+
+# ---------------------------------------------------------------------------
+# Notebook backups / exports
+# ---------------------------------------------------------------------------
+4090_s2 - Copy.ipynb
+
+# ---------------------------------------------------------------------------
+# OS cruft
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------------------------------------------------------
+# PATIENT DATA (Middlesex University resource — see README "Data Availability").
+# The manuscript states the data are NOT publicly distributable. If you confirm
+# the same for this repo, keep the lines below ENABLED so no patient-derived
+# files are published. (They are already tracked in history, so they must also
+# be removed from the index with `git rm -r --cached <path>`.)
+# ---------------------------------------------------------------------------
+# capture_data copy.csv
+# cleaned_capture_data.csv
+# filtered_patients_25_steps.csv
+# patient_metrics_new.csv
+# *.joblib
+# Baseline_Metrics/
+# Baselines_Stepwise/
+# Individual_Baseline_Metrics/
+# Metric_Distributions/
+# Metrics_Baselines/
+# Pdata_baseline/
+# Step_Segmentation_Metrics/
+# Step_Segmentation_Metrics_tdata/
+# Step_Segmented_Distributions/
+# Temperature_Segmentation_Metrics/

@@ -1,0 +1,298 @@
+{
+  "cohort_flow": {
+    "raw_patients": 312,
+    "raw_observations": 93790,
+    "after_variability_filter": 92,
+    "after_25_step_filter": 67,
+    "filtered_observations": 58807
+  },
+  "raw_descriptive": {
+    "pressure_cv": {
+      "pData": 4.83,
+      "pData_2": 6.85,
+      "pData_3": 11.49,
+      "pData_4": 18.32
+    },
+    "pressure_raw": {
+      "pData": {
+        "mean": 41.5,
+        "std": 200.42,
+        "max": 9893.0,
+        "cv": 4.83
+      },
+      "pData_2": {
+        "mean": 28.35,
+        "std": 194.32,
+        "max": 9893.0,
+        "cv": 6.85
+      },
+      "pData_3": {
+        "mean": 10.96,
+        "std": 125.94,
+        "max": 9893.0,
+        "cv": 11.49
+      },
+      "pData_4": {
+        "mean": 19.64,
+        "std": 359.81,
+        "max": 9893.0,
+        "cv": 18.32
+      }
+    },
+    "pressure_capped": {
+      "pData": {
+        "mean": 37.39,
+        "std": 19.77,
+        "max": 908.0,
+        "cv": 0.53,
+        "pct_kept": 100.0
+      },
+      "pData_2": {
+        "mean": 24.39,
+        "std": 20.5,
+        "max": 911.0,
+        "cv": 0.84,
+        "pct_kept": 100.0
+      },
+      "pData_3": {
+        "mean": 9.35,
+        "std": 22.95,
+        "max": 846.0,
+        "cv": 2.45,
+        "pct_kept": 100.0
+      },
+      "pData_4": {
+        "mean": 6.31,
+        "std": 20.08,
+        "max": 1000.0,
+        "cv": 3.18,
+        "pct_kept": 99.9
+      }
+    },
+    "pressure_cv_range": [
+      4.83,
+      18.32
+    ],
+    "raw_sample_correlation": {
+      "pData": {
+        "pData": 1.0,
+        "pData_2": 0.035,
+        "pData_3": 0.0278,
+        "pData_4": 0.0065
+      },
+      "pData_2": {
+        "pData": 0.035,
+        "pData_2": 1.0,
+        "pData_3": 0.0345,
+        "pData_4": 0.0064
+      },
+      "pData_3": {
+        "pData": 0.0278,
+        "pData_2": 0.0345,
+        "pData_3": 1.0,
+        "pData_4": 0.024
+      },
+      "pData_4": {
+        "pData": 0.0065,
+        "pData_2": 0.0064,
+        "pData_3": 0.024,
+        "pData_4": 1.0
+      }
+    },
+    "raw_r1_r4": 0.0065
+  },
+  "temperature_clean": {
+    "tData": {
+      "raw_n": 58807,
+      "clean_n": 49543,
+      "pct_kept": 84.2,
+      "mean": 25.04,
+      "std": 3.82
+    },
+    "tData_2": {
+      "raw_n": 58807,
+      "clean_n": 47529,
+      "pct_kept": 80.8,
+      "mean": 24.87,
+      "std": 4.17
+    },
+    "tData_3": {
+      "raw_n": 58807,
+      "clean_n": 49107,
+      "pct_kept": 83.5,
+      "mean": 24.75,
+      "std": 3.89
+    },
+    "tData_4": {
+      "raw_n": 58807,
+      "clean_n": 36698,
+      "pct_kept": 62.4,
+      "mean": 23.95,
+      "std": 4.09
+    },
+    "highest_dispersion": "tData_2"
+  },
+  "baseline_peak_pressure": {
+    "pData": {
+      "label": "R1 (Toe)",
+      "n_steps_all": 92,
+      "mean": 80.52,
+      "std": 18.8,
+      "median": 73.75
+    },
+    "pData_2": {
+      "label": "R2 (Mid-foot)",
+      "n_steps_all": 149,
+      "mean": 57.78,
+      "std": 30.44,
+      "median": 59.8
+    },
+    "pData_3": {
+      "label": "R3 (Lateral)",
+      "n_steps_all": 185,
+      "mean": 45.28,
+      "std": 33.95,
+      "median": 47.75
+    },
+    "pData_4": {
+      "label": "R4 (Heel)",
+      "n_steps_all": 134,
+      "mean": 112.58,
+      "std": 46.49,
+      "median": 107.5
+    },
+    "heel_vs_next_pct": 39.8
+  },
+  "baseline_correlation": {
+    "method": "peak_pressure.fillna(0), row-index aligned across regions (notebook)",
+    "matrix": {
+      "pData": {
+        "pData": 1.0,
+        "pData_2": 0.0364,
+        "pData_3": 0.2994,
+        "pData_4": -0.3356
+      },
+      "pData_2": {
+        "pData": 0.0364,
+        "pData_2": 1.0,
+        "pData_3": -0.0478,
+        "pData_4": 0.29
+      },
+      "pData_3": {
+        "pData": 0.2994,
+        "pData_2": -0.0478,
+        "pData_3": 1.0,
+        "pData_4": -0.2988
+      },
+      "pData_4": {
+        "pData": -0.3356,
+        "pData_2": 0.29,
+        "pData_3": -0.2988,
+        "pData_4": 1.0
+      }
+    },
+    "r1_r4": -0.3356,
+    "r2_r4": 0.29,
+    "r1_r3": 0.2994
+  },
+  "classification": {
+    "pData": {
+      "n_steps": 7,
+      "n_anomaly": 1,
+      "anomaly_rate": 14.3
+    },
+    "pData_2": {
+      "n_steps": 89,
+      "n_anomaly": 18,
+      "anomaly_rate": 20.2,
+      "cv_splits": 5,
+      "rf_cv_f1_mean": 0.953,
+      "rf_cv_f1_std": 0.042,
+      "xgb_cv_f1_mean": 0.849,
+      "xgb_cv_f1_std": 0.041
+    },
+    "pData_3": {
+      "n_steps": 74,
+      "n_anomaly": 18,
+      "anomaly_rate": 24.3,
+      "cv_splits": 5,
+      "rf_cv_f1_mean": 0.9,
+      "rf_cv_f1_std": 0.072,
+      "xgb_cv_f1_mean": 0.835,
+      "xgb_cv_f1_std": 0.08
+    },
+    "pData_4": {
+      "n_steps": 43,
+      "n_anomaly": 10,
+      "anomaly_rate": 23.3,
+      "cv_splits": 5,
+      "rf_cv_f1_mean": 0.883,
+      "rf_cv_f1_std": 0.117,
+      "xgb_cv_f1_mean": 0.799,
+      "xgb_cv_f1_std": 0.071
+    }
+  },
+  "patient_case_study": {
+    "cid": 350,
+    "regions": {
+      "pData": {
+        "label": "R1 (Toe)",
+        "n_steps": 92,
+        "mean_peak": 65.83,
+        "std_peak": 4.73,
+        "cv_pct": 7.19
+      },
+      "pData_2": {
+        "label": "R2 (Mid-foot)",
+        "n_steps": 74,
+        "mean_peak": 69.23,
+        "std_peak": 9.04,
+        "cv_pct": 13.05
+      },
+      "pData_3": {
+        "label": "R3 (Lateral)",
+        "n_steps": 39,
+        "mean_peak": 63.74,
+        "std_peak": 5.82,
+        "cv_pct": 9.12
+      },
+      "pData_4": {
+        "label": "R4 (Heel)",
+        "n_steps": 134,
+        "mean_peak": 138.43,
+        "std_peak": 40.38,
+        "cv_pct": 29.17
+      }
+    }
+  },
+  "notebook_derived": {
+    "stage1_cohort_baseline": {
+      "values_peak_pressure": {
+        "pData": 59.69,
+        "pData_2": 58.5,
+        "pData_3": 63.03,
+        "pData_4": 86.96
+      },
+      "note": "Stage-1 cohort baseline used an earlier find_peaks-based periodicity segmentation (analyze_step_periodicity), not the threshold-based segmentation behind the reported results. It served only for early screening and is not recomputed here; it is not used in any headline result."
+    },
+    "patient350_anomaly_rates": {
+      "values": {
+        "pData": "8/92",
+        "pData_2": "43/74",
+        "pData_3": "13/39"
+      },
+      "note": "Per-patient anomaly rates and DTW abnormality counts come from the notebook's interactive anomaly/DTW modules (patient-relative thresholds and warping-path logic) and are reported as illustrative case-study values."
+    }
+  },
+  "anova_peak_pressure": {
+    "F": 107.61,
+    "p": 6.107903770853592e-55,
+    "group_counts": {
+      "pData": 92,
+      "pData_2": 149,
+      "pData_3": 185,
+      "pData_4": 134
+    },
+    "note": "one-way ANOVA on all-rows regional stepwise-baseline peak pressure (matches Table 4 ns)"
+  }
+}
